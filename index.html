@@ -1,11 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  
-  
-  <title>Hexo</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 6.3.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"example.com","root":"/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+  </script>
+
   <meta property="og:type" content="website">
 <meta property="og:title" content="Hexo">
 <meta property="og:url" content="http://example.com/index.html">
@@ -13,184 +27,941 @@
 <meta property="og:locale" content="en_US">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
+
+<link rel="canonical" href="http://example.com/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : true,
+    isPost : false,
+    lang   : 'en'
+  };
+</script>
+
+  <title>Hexo</title>
   
-    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
-  
-  
-    <link rel="shortcut icon" href="/favicon.png">
-  
-  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="Toggle navigation bar">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">Hexo</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>Home</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives</a>
+
+  </li>
+  </ul>
+</nav>
+
+
+
+
+</div>
+    </header>
+
     
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-source-code-pro@0.0.71/index.min.css">
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
 
-  
-  
-<link rel="stylesheet" href="/css/style.css">
 
-  
-    
-<link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
 
-  
-  
-<meta name="generator" content="Hexo 6.3.0"></head>
-
-<body>
-  <div id="container">
-    <div id="wrap">
-      <header id="header">
-  <div id="banner"></div>
-  <div id="header-outer" class="outer">
-    <div id="header-title" class="inner">
-      <h1 id="logo-wrap">
-        <a href="/" id="logo">Hexo</a>
-      </h1>
+          <div class="content index posts-expand">
+            
       
-    </div>
-    <div id="header-inner" class="inner">
-      <nav id="main-nav">
-        <a id="main-nav-toggle" class="nav-icon"><span class="fa fa-bars"></span></a>
-        
-          <a class="main-nav-link" href="/">Home</a>
-        
-          <a class="main-nav-link" href="/archives">Archives</a>
-        
-      </nav>
-      <nav id="sub-nav">
-        
-        
-          <a class="nav-icon" href="/atom.xml" title="RSS Feed"><span class="fa fa-rss"></span></a>
-        
-        <a class="nav-icon nav-search-btn" title="Search"><span class="fa fa-search"></span></a>
-      </nav>
-      <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://example.com"></form>
-      </div>
-    </div>
-  </div>
-</header>
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2023/08/21/%E9%87%8D%E5%90%AF/">
 
-      <div class="outer">
-        <section id="main">
-  
-    <article id="post-重启" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2023/08/21/%E9%87%8D%E5%90%AF/" class="article-date">
-  <time class="dt-published" datetime="2023-08-21T08:15:50.000Z" itemprop="datePublished">2023-08-21</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2023/08/21/%E9%87%8D%E5%90%AF/">我的博客</a>
-    </h1>
-  
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
+    </span>
 
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2023/08/21/%E9%87%8D%E5%90%AF/" class="post-title-link" itemprop="url">重启</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+              
+
+              <time title="Created: 2023-08-21 16:15:50 / Modified: 17:27:56" itemprop="dateCreated datePublished" datetime="2023-08-21T16:15:50+08:00">2023-08-21</time>
+            </span>
+
+          
+
+        </div>
       </header>
+
     
-    <div class="e-content article-entry" itemprop="articleBody">
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
       
-        <h1>待开始</h1>
+          <h1>待开始</h1>
       
     </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2023/08/21/%E9%87%8D%E5%90%AF/" data-id="cllkmk3op0000x19l66481kn3" data-title="我的博客" class="article-share-link"><span class="fa fa-share">Share</span></a>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
       
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2020/11/01/%E8%BF%9B%E6%AD%A5%E6%85%A2%E4%BA%86/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2020/11/01/%E8%BF%9B%E6%AD%A5%E6%85%A2%E4%BA%86/" class="post-title-link" itemprop="url">进步慢了</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2020-11-01 00:00:00" itemprop="dateCreated datePublished" datetime="2020-11-01T00:00:00+08:00">2020-11-01</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2023-08-21 17:28:53" itemprop="dateModified" datetime="2023-08-21T17:28:53+08:00">2023-08-21</time>
+              </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
       
+          <p><a href="/2020/11/01/2020-11-01/">2020-11-01</a></p>
+<p>自从了解了从前端到后端的参数传递，到处理逻辑到最后操作数据库增删改查，好像就动力没那么大了，虽然自己仍然写不出像样的接口，但是仍然感觉不知道从何方向开始努力，得尽快摆脱这种状态，不然一天就是瞎忙，我还是应该从基础开始，不要急，然后平时就是写接口，主力是补充基础，编程五大件得掌握（1、语言语法；2、数据结构和算法；3、计算机网络；4、操作系统；5、设计模式）</p>
+
       
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2020/10/18/%E4%BB%8E%E5%8F%AA%E4%BC%9Apython%E7%AE%80%E5%8D%95%E8%AF%AD%E6%B3%95%E5%88%B0%E4%BC%9A%E4%BD%BF%E7%94%A8spring%20boot%E6%A1%86%E6%9E%B63%E4%B8%AA%E6%9C%88/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2020/10/18/%E4%BB%8E%E5%8F%AA%E4%BC%9Apython%E7%AE%80%E5%8D%95%E8%AF%AD%E6%B3%95%E5%88%B0%E4%BC%9A%E4%BD%BF%E7%94%A8spring%20boot%E6%A1%86%E6%9E%B63%E4%B8%AA%E6%9C%88/" class="post-title-link" itemprop="url">从只会python简单语法到会使用spring boot框架3个月</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2020-10-18 00:00:00" itemprop="dateCreated datePublished" datetime="2020-10-18T00:00:00+08:00">2020-10-18</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2023-08-21 17:30:32" itemprop="dateModified" datetime="2023-08-21T17:30:32+08:00">2023-08-21</time>
+              </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p><a href="/2020/10/18/2020-10-18/">2020-10-18</a></p>
+<p>一直自学的是python，这也仅仅是会基础语法而已，根本不知道可以来做什么，巧合之下（原因以后再说），要掌握java，于是我又开始看java基础语法视频到慢慢起步，那时候我已经铁了心要学会编程，不管是python还是java，因为这个事情很多年前就在心中萌芽，说是为了钱也好，为了一个心愿也好，必须要学会。</p>
+<p>大概用了一至两个月时间断断续续的看了基础语法（然而我现在也没有看完），感觉掌握起来还可以，基础语法这部分没啥好说的，硬背也要掌握背下一些重要的用法，时间2个月过去了，还是不知道这些语法能做什么，直到有一天灵光乍现：哔哩哔哩一个up主说过，掌握语法到实际运用中间有一条鸿沟那就是框架，于是我就把代码写进spring boot框架里，其实也没有多少代码，都是照着抄，果然就起作用了，代码会实现一些效果，怎么说呢，框架就好比是一个社区，什么功能都有，理发的、饭馆、快递、医院等等，然而你自己只会走路、吃饭、睡觉、上厕所。你想做事情怎么办，就把你放入社区里、你就会和社区融合、你想做的事情，也会通过社区实现。</p>
+<p>框架就是这样，自己写的区区几行代码单独根本不起什么作用、但是放入框架里、就会调用各种api（相当于自己在社区里使用花钱这个api去实现功能），比喻不恰当、大概就是我的体会，所以刚开始学完语法后就立即操作框架吧，然后遇到什么问题再查资料解决什么问题，这大概是一个良好的正反馈学历路线。</p>
+<p>因为这个路线、或者这个学习过程已经运行起来了、车已经跑起来了（这是主线，其他影响这个主线的困难去解决这些困难都是支线），有了正反馈、遇到困难就有信心有兴趣去查、若都跑不起来，主线进行不下去、没有主线驱动的学习就变成了没有目的的学习、那就是每天都很忙、但是学的什么好像不知道。</p>
+<p>就这些吧</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2015/07/08/%E7%BB%84%E5%90%88%E8%B5%84%E6%BA%90%E7%9A%84%E9%87%8D%E8%A6%81/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2015/07/08/%E7%BB%84%E5%90%88%E8%B5%84%E6%BA%90%E7%9A%84%E9%87%8D%E8%A6%81/" class="post-title-link" itemprop="url">组合资源的重要</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2015-07-08 00:00:00" itemprop="dateCreated datePublished" datetime="2015-07-08T00:00:00+08:00">2015-07-08</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2023-08-21 17:29:03" itemprop="dateModified" datetime="2023-08-21T17:29:03+08:00">2023-08-21</time>
+              </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p><a href="/2015/07/08/2015-07-08/">2015-07-08</a></p>
+<p>在这个信息时代,一个人的能力更是显得渺小,你不能事事都做到最好,事事都会做.你只能抓住重要的事情来做,其他的事交给其他的人.建立自己的平台,组合资源,以空间换时间的策略来为自己做事,这样,这样才是智慧的.前提是你在什么样的位置平台,你要做到最好,然后整合资源为自己做事.</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2015/07/08/%E8%AF%A5%E5%81%9A%E7%9A%84%E4%BA%8B/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2015/07/08/%E8%AF%A5%E5%81%9A%E7%9A%84%E4%BA%8B/" class="post-title-link" itemprop="url">该做的事</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2015-07-08 00:00:00" itemprop="dateCreated datePublished" datetime="2015-07-08T00:00:00+08:00">2015-07-08</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2023-08-21 17:28:57" itemprop="dateModified" datetime="2023-08-21T17:28:57+08:00">2023-08-21</time>
+              </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p><a href="/2015/07/08/2015-07-08/">2015-07-08</a></p>
+<p>我们历尽艰辛的活下来，就是为了成为命运的奴隶？我们何时才能获得自由，到死的那一天吗？我们生活在这个世界里，最终的目的不就是去做我们要在人世间去完成的事吗，如果做不了，这样的人生你会快乐吗？会发自内心的快乐吗？你欺骗了谁，这样的人生你要吗？</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2015/07/06/%E5%A4%9A%E7%B1%B3%E8%AF%BA%E9%AA%A8%E7%89%8C%E6%95%88%E5%BA%94%EF%BC%8C%E4%BA%BA%E7%94%9F%E9%9B%AA%E5%B4%A9%E7%9A%84%E7%A7%98%E5%AF%86/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2015/07/06/%E5%A4%9A%E7%B1%B3%E8%AF%BA%E9%AA%A8%E7%89%8C%E6%95%88%E5%BA%94%EF%BC%8C%E4%BA%BA%E7%94%9F%E9%9B%AA%E5%B4%A9%E7%9A%84%E7%A7%98%E5%AF%86/" class="post-title-link" itemprop="url">多米诺骨牌效应，人生雪崩的秘密</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2015-07-06 00:00:00" itemprop="dateCreated datePublished" datetime="2015-07-06T00:00:00+08:00">2015-07-06</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2023-08-21 17:29:08" itemprop="dateModified" datetime="2023-08-21T17:29:08+08:00">2023-08-21</time>
+              </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p><a href="/2015/07/06/2015-07-06/">2015-07-06</a></p>
+<p>多米诺骨牌是一种非常精彩的游戏，它用木制、骨制或塑料制成长方形骨牌，在游戏进时将骨牌按一定间距排列成行。只要轻轻碰倒第一枚骨牌，其余的骨牌就会在第一块倒下的骨牌的带动下产生连锁反应，依次倒下。这一游戏从其诞生之日起，就令人着迷。目前，多米诺骨牌的世界纪录是从轻轻推倒第一张牌开始，依次传递，结果成功推倒了340万张骨牌。</p>
+<p>从所拍的视频可以看出，骨牌依次倒下的场面蔚为壮观，其间显示的图案丰富多彩，令人叹为观止。多米诺骨牌蕴涵着一定的科学道理，其原理是，当骨牌竖着时，重心较高，倒下时重心下降，倒下过程中，其重力势能便转化为动能，当它倒在第二张牌上，这个动能就转移到第二张牌上，第二张牌将第一张牌转移来的动能和自己倒下过程中由本身具有的重力势能转化来的动能之和，再传到第三张牌上……所以每张牌倒下的时候，具有的动能都比前一块牌大，因此它们的速度一个比一个快，也就是说，它们依次推倒的能量一个比一个大。这样，就产生了“多米诺骨牌效应”。</p>
+<p>“多米诺骨牌效应”产生的能量是十分巨大的。它告诉我们，在一个相互联系的系统中，一个很小的初始能量就可能产生一连串的连锁反应，从而产生巨大的能量。在生活当中，“多米诺骨牌效应”是比较常见的。第一棵树的砍伐，最后导致了森林的消失；一日的荒废，可能是一生荒废的开始；第一场强权战争的出现，可能是使整个世界文明化为灰烬的导火索。也许，这样的预言或许有些危言耸听，但是到了未来，我们很可能不得不承认它们的准确性。要知道，有些可预见的事件，当其结果最终出现时，可能要经历一个世纪甚至两个世纪的漫长时间。然而，它的变化已经从我们没有注意到的地方开始了。多米诺骨牌效应告诉我们：一个很微小的力量能够引起的或许只是察觉不到的渐变，但是它所引发的却可能是翻天覆地的变化。</p>
+<p>—-摘自paer微博</p>
+<p>但最后我想说的是，那句加黑的话：一日的荒废，可能是一生荒废的开始。特别对于那些自控力不好，又决心改变的人来说，而且如果一旦在改变的过程中半途而废，那么毁灭性是巨大的！有时候我们明明可以做到，但是那么一小步却迈不出去。不是我们做不了那么一件小事。而是我们在和自己的行为习惯，思维习惯，这几十年形成的多米诺骨牌人生进程效应在作斗争。所以年龄越大，改变越难。如果在坚持做一件小事上你侥幸赢了，赢了自己人生进程的多米诺骨牌效应。那么这件事带给你的意义没什么，反而由此带给你的副作用是巨大的。比如你又相信了爱情，相信了奋斗，相信了理想～～</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2015/07/05/%E4%BD%9C%E5%AE%B6%E6%88%96%E8%80%85%E8%89%BA%E6%9C%AF%E5%AE%B6%E5%BA%94%E8%AF%A5%E5%85%B7%E5%A4%87%E7%9A%84%E6%B0%94%E8%B4%A8/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2015/07/05/%E4%BD%9C%E5%AE%B6%E6%88%96%E8%80%85%E8%89%BA%E6%9C%AF%E5%AE%B6%E5%BA%94%E8%AF%A5%E5%85%B7%E5%A4%87%E7%9A%84%E6%B0%94%E8%B4%A8/" class="post-title-link" itemprop="url">作家或者艺术家应该具备的气质</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2015-07-05 00:00:00" itemprop="dateCreated datePublished" datetime="2015-07-05T00:00:00+08:00">2015-07-05</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2023-08-21 17:29:12" itemprop="dateModified" datetime="2023-08-21T17:29:12+08:00">2023-08-21</time>
+              </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p><a href="/2015/07/05/2015-07-05/">2015-07-05</a></p>
+<p>作家具备的气质至少不是用知识理论看世界，而是亲身去实践，并获得经验来生活于这个世界，相信你相信的，做你相信的，并且直指人心，实践也证明你是对的。人活的久了，也会这么总结，但是始终没有勇气或者已经习惯于安全区。详见男人帮里面的顾小白</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2015/07/02/%E9%9A%8F%E6%83%B34/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2015/07/02/%E9%9A%8F%E6%83%B34/" class="post-title-link" itemprop="url">随想4</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2015-07-02 00:00:00" itemprop="dateCreated datePublished" datetime="2015-07-02T00:00:00+08:00">2015-07-02</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2023-08-21 17:28:41" itemprop="dateModified" datetime="2023-08-21T17:28:41+08:00">2023-08-21</time>
+              </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p><a href="/2015/07/02/2015-07-02/">2015-07-02</a></p>
+<p>中国的传统本来是有些好东西，可是中国这个民族没有孕育科学，那么这就导致了许多观念都不与时俱进，都不进步。都是代代相传，口口相传，所以中国人生在传统里，活在传统里。这本身没有好坏，但是要是错的观念根深蒂固，它也将引领你的一生。比如说三十而立，因为古代人的寿命比较短，他必须都得三十岁结婚。而现代人寿命可以很长，三十岁也可以是青壮年。小心周围那些所谓过来人的口吻对你说的话，一定要警惕！</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2015/06/27/%E9%9A%8F%E6%83%B32/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2015/06/27/%E9%9A%8F%E6%83%B32/" class="post-title-link" itemprop="url">随想</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2015-06-27 00:00:00" itemprop="dateCreated datePublished" datetime="2015-06-27T00:00:00+08:00">2015-06-27</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2023-08-21 17:28:27" itemprop="dateModified" datetime="2023-08-21T17:28:27+08:00">2023-08-21</time>
+              </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p><a href="/2015/06/27/2015-06-27-01/">2015-06-27</a></p>
+<p>从经济学角度来看，不管任何时期的人们所做的经济活动都是可以类比的，比如古代人们男耕女织，就和现在的白领上下班一样，工作内容变了，但是性质基本没变。工作内容变了是因为人类累积出来的物质财富在一直增加，人们解放路自己的双手，拿机器去耕地织布，但是却又有新的经济活动让我们去做。从体力上讲，我们没那么辛苦了，不用干活流汗了，但从脑力上讲，我们又开始了新的工作，脑力也很辛苦。所以让我讲，人们不停的摆脱束缚，追求同时代更有价值的东西，就是为了获得自由吧。你不能说程序员比耕地高级，这没有可比性，因为他们分别都是各个时代人们追求财富的手段，或者说市场的稀缺性，有价值性。所以身为这个时代的我们，幸福程度不比过去高，也可能不比未来低。不断的追求自由，追求理想，那是人类的主题！</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2015/06/27/%E9%9A%8F%E6%83%B33/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2015/06/27/%E9%9A%8F%E6%83%B33/" class="post-title-link" itemprop="url">随想3</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2015-06-27 00:00:00" itemprop="dateCreated datePublished" datetime="2015-06-27T00:00:00+08:00">2015-06-27</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2023-08-21 17:28:33" itemprop="dateModified" datetime="2023-08-21T17:28:33+08:00">2023-08-21</time>
+              </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p><a href="/2015/06/27/2015-06-27-01/">2015-06-27</a></p>
+<p>你只是看起来很努力，这不知道是谁的新书，但是我一听书名我就知道它表达的含义，不是贬低这本书，而是…..这本书的名字就揭示了一些东西，我觉得这本书一定会写到某些人的痛处，也包括我吧。我没时间看，也没勇气看。但是我深深的知道，书里面讽刺的肯定有我这样的人。在这个什么什么正能量的社会，看一点醒脑的东西，有助于你知道你在做什么，亦或者你是谁！</p>
+<p>你有你的困难、但世界另有安排</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+
+  
+  <nav class="pagination">
+    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="extend next" rel="next" href="/page/2/"><i class="fa fa-angle-right" aria-label="Next page"></i></a>
+  </nav>
+
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          Table of Contents
+        </li>
+        <li class="sidebar-nav-overview">
+          Overview
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">John Doe</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">11</span>
+          <span class="site-state-item-name">posts</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-tags">
+        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-name">tags</span>
+      </div>
+  </nav>
+</div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2023</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">John Doe</span>
+</div>
+  <div class="powered-by">Powered by <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://pisces.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Pisces</a>
+  </div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
     </footer>
   </div>
-  
-</article>
-
-
 
   
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
 
 
-</section>
-        
-          <aside id="sidebar">
-  
-    
-
-  
-    
-
-  
-    
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Archives</h3>
-    <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/08/">August 2023</a></li></ul>
-    </div>
-  </div>
+<script src="/js/schemes/pisces.js"></script>
 
 
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Recent Posts</h3>
-    <div class="widget">
-      <ul>
-        
-          <li>
-            <a href="/2023/08/21/%E9%87%8D%E5%90%AF/">我的博客</a>
-          </li>
-        
-      </ul>
-    </div>
-  </div>
+<script src="/js/next-boot.js"></script>
 
-  
-</aside>
-        
-      </div>
-      <footer id="footer">
-  
-  <div class="outer">
-    <div id="footer-info" class="inner">
-      
-      &copy; 2023 John Doe<br>
-      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
-    </div>
-  </div>
-</footer>
-
-    </div>
-    <nav id="mobile-nav">
-  
-    <a href="/" class="mobile-nav-link">Home</a>
-  
-    <a href="/archives" class="mobile-nav-link">Archives</a>
-  
-</nav>
-    
-
-
-<script src="/js/jquery-3.6.4.min.js"></script>
 
 
 
   
-<script src="/fancybox/jquery.fancybox.min.js"></script>
-
-
-
-
-<script src="/js/script.js"></script>
 
 
 
 
 
-  </div>
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
 </body>
 </html>
