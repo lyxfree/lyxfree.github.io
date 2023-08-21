@@ -1,0 +1,10 @@
+Host 192.168.99.79
+  HostName 192.168.99.79
+  User root
+  PasswordAuthentication root
+
+Host 47.108.237.169
+  HostName aliyun
+  User root
+  PasswordAuthentication lyxfendou.25
+  Port 222
